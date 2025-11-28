@@ -30,7 +30,6 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_PT",
   },
-    generator: 'v0.app'
 }
 
 export const viewport: Viewport = {
