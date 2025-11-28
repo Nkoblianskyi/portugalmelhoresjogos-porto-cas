@@ -180,11 +180,11 @@ export function CasinoCard({ casino, index }: CasinoCardProps) {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center text-center">
                 <p className="text-xs font-semibold text-primary tracking-wider uppercase mb-1">
                   Bónus Boas-Vindas
                 </p>
-                <p className="text-lg font-bold text-foreground leading-tight">{casino.bonus}</p>
+                <p className="text-lg text-center font-bold text-foreground leading-tight">{casino.bonus}</p>
               </div>
             </div>
 
