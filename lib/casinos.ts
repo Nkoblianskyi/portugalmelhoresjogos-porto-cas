@@ -16,7 +16,7 @@ export const casinos: Casino[] = [
     logo: "/lebull.svg",
     rating: 9.8,
     bonus: "25 FreeSpins no Registo",
-    reviews: 3521,
+    reviews: 3524,
     url: "https://www.lebull.pt/",
   },
 
@@ -27,7 +27,7 @@ export const casinos: Casino[] = [
     logo: "/luckia.svg",
     rating: 9.6,
     bonus: "5€ Registo + Até 500€ Bónus",
-    reviews: 2734,
+    reviews: 2739,
     url: "https://www.luckia.pt/",
   },
   {
@@ -36,7 +36,7 @@ export const casinos: Casino[] = [
     logo: "/betclic.svg",
     rating: 9.4,
     bonus: "Deposita 10€ e joga com 50€",
-    reviews: 3298,
+    reviews: 3192,
     url: "https://www.betclic.pt/",
   },
   {
@@ -55,7 +55,7 @@ export const casinos: Casino[] = [
     logo: "/solverde.svg",
     rating: 9.1,
     bonus: "100% Até 20€",
-    reviews: 2956,
+    reviews: 2946,
     url: "https://www.solverde.pt/",
   },
 

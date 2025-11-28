@@ -12,7 +12,7 @@ import { OurChoiceSection } from "@/components/our-choice-section"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-background text-foreground relative overflow-hidden">
+    <div className="min-h-screen bg-background text-foreground relative">
       {/* Luxury Background Pattern */}
       <div className="fixed inset-0 pointer-events-none">
         {/* Deep gradient base */}
