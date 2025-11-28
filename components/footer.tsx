@@ -88,12 +88,19 @@ export function Footer() {
               <img src="/srij.svg" alt="SRIJ" className="h-8 w-auto" />
             </Link>
             <Link
-              href="https://www.sicad.pt"
+              href="https://www.icad.pt"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80 transition-opacity"
             >
               <img src="/icad.png" alt="ICAD" className="h-10 w-auto bg-white p-1.5 rounded" />
+            </Link>
+            <Link
+              href="https://www.gambleaware.org"
+              target="_blank"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <img src="/gamble.webp" alt="GambleAware" className="h-10 w-auto bg-white p-1.5 rounded" />
             </Link>
             <Link
               href="https://www.jogoresponsavel.pt"
