@@ -164,7 +164,6 @@ export function CasinoCard({ casino, index }: CasinoCardProps) {
                 : "bg-gradient-to-r from-secondary/80 to-emerald-600/80 text-secondary-foreground"
             }`}
           >
-            <BadgeIcon className="w-3.5 h-3.5" />
             <span className="font-bold text-xs tracking-wider">
               #{casino.rank} {badges[index]?.text}
             </span>
@@ -174,18 +173,18 @@ export function CasinoCard({ casino, index }: CasinoCardProps) {
           <div className="relative z-10 p-4">
             {/* Logo and Bonus Row */}
             <div className="flex items-center gap-4 mb-4">
-              <div className="flex-shrink-0 w-20 h-14 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 p-2">
+              <div className="flex-shrink-0 w-32 h-24 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 p-2">
                 <img
                   src={casino.logo || "/placeholder.svg"}
                   alt={`${casino.name} logo`}
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="flex-1">
-                <p className="text-[10px] font-semibold text-primary tracking-wider uppercase mb-1">
+              <div className="flex flex-col items-center justify-center">
+                <p className="text-xs font-semibold text-primary tracking-wider uppercase mb-1">
                   Bónus Boas-Vindas
                 </p>
-                <p className="text-sm font-bold text-foreground leading-tight">{casino.bonus}</p>
+                <p className="text-lg font-bold text-foreground leading-tight">{casino.bonus}</p>
               </div>
             </div>
 
