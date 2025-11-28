@@ -16,10 +16,6 @@ export function RatingSystemSection() {
           <div className="relative z-10 p-8 lg:p-14">
             {/* Header */}
             <div className="text-center mb-12 lg:mb-16">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-muted/50 border border-secondary/20 mb-6">
-                <Layers className="w-4 h-4 text-secondary" />
-                <span className="text-xs font-medium text-secondary tracking-wider uppercase">Metodologia</span>
-              </div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-4">
                 <span className="text-emerald-gradient">Sistema de</span>{" "}
                 <span className="text-gold-gradient">Classificação</span>
@@ -33,9 +29,6 @@ export function RatingSystemSection() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-12">
               {/* Licensing */}
               <div className="group p-5 lg:p-6 rounded-xl bg-gradient-to-br from-muted/40 to-transparent border border-primary/10 hover:border-primary/30 transition-all duration-300">
-                <div className="w-12 h-12 mb-4 rounded-lg bg-primary/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <Star className="h-6 w-6 text-primary" />
-                </div>
                 <h3 className="text-base font-bold text-foreground mb-2">Licenciamento</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   Verificação de licenças SRIJ e conformidade regulamentar.
@@ -44,9 +37,7 @@ export function RatingSystemSection() {
 
               {/* Security */}
               <div className="group p-5 lg:p-6 rounded-xl bg-gradient-to-br from-muted/40 to-transparent border border-secondary/10 hover:border-secondary/30 transition-all duration-300">
-                <div className="w-12 h-12 mb-4 rounded-lg bg-secondary/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <CheckCircle className="h-6 w-6 text-secondary" />
-                </div>
+
                 <h3 className="text-base font-bold text-foreground mb-2">Segurança</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   Análise de encriptação SSL, proteção de dados e privacidade.
@@ -55,9 +46,7 @@ export function RatingSystemSection() {
 
               {/* Bonus & RTP */}
               <div className="group p-5 lg:p-6 rounded-xl bg-gradient-to-br from-muted/40 to-transparent border border-primary/10 hover:border-primary/30 transition-all duration-300">
-                <div className="w-12 h-12 mb-4 rounded-lg bg-primary/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <TrendingUp className="h-6 w-6 text-primary" />
-                </div>
+
                 <h3 className="text-base font-bold text-foreground mb-2">Bónus & RTP</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   Avaliação de ofertas, termos e taxas de retorno ao jogador.
@@ -66,9 +55,7 @@ export function RatingSystemSection() {
 
               {/* Experience */}
               <div className="group p-5 lg:p-6 rounded-xl bg-gradient-to-br from-muted/40 to-transparent border border-secondary/10 hover:border-secondary/30 transition-all duration-300">
-                <div className="w-12 h-12 mb-4 rounded-lg bg-secondary/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <Search className="h-6 w-6 text-secondary" />
-                </div>
+
                 <h3 className="text-base font-bold text-foreground mb-2">Experiência</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   Testes de usabilidade, suporte ao cliente e velocidade.

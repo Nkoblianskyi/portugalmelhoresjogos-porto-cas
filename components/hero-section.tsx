@@ -75,7 +75,7 @@ export function HeroSection() {
               className={`space-y-1 lg:space-y-2 transition-all duration-700 delay-150 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"}`}
             >
               <div className="flex items-center justify-center lg:justify-start gap-1.5 mb-1 lg:mb-2">
-                <span className="text-[8px] lg:text-xs text-primary bg-primary/10 px-2 py-0.5 lg:px-3 lg:py-1 rounded-full">
+                <span className="text-[8px] lg:text-xs text-white bg-primary/10 px-2 py-0.5 lg:px-3 lg:py-1 rounded-full">
                   Atualizado: {updateDate}
                 </span>
               </div>

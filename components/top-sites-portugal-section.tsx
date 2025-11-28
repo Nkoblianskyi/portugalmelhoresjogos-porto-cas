@@ -19,10 +19,7 @@ export function TopSitesPortugalSection() {
           <div className="relative z-10 p-8 lg:p-14">
             {/* Header */}
             <div className="text-center mb-12 lg:mb-16">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-muted/50 border border-primary/20 mb-6">
-                <Crown className="w-4 h-4 text-primary" />
-                <span className="text-xs font-medium text-primary tracking-wider uppercase">Mercado Português</span>
-              </div>
+
               <h2 className="text-3xl lg:text-4xl font-bold mb-4">
                 <span className="text-gold-gradient">Top Casinos</span>{" "}
                 <span className="text-emerald-gradient">em Portugal</span>
@@ -37,9 +34,7 @@ export function TopSitesPortugalSection() {
               {/* Regulated Market */}
               <div className="group p-6 rounded-2xl bg-gradient-to-br from-muted/30 to-transparent border border-border/30 hover:border-primary/30 transition-all duration-300">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <MapPin className="h-6 w-6 text-primary" />
-                  </div>
+
                   <div>
                     <h3 className="text-lg font-bold text-foreground mb-2">Mercado Regulamentado</h3>
                     <p className="text-muted-foreground leading-relaxed">
@@ -53,9 +48,7 @@ export function TopSitesPortugalSection() {
               {/* Licensed Casinos */}
               <div className="group p-6 rounded-2xl bg-gradient-to-br from-muted/30 to-transparent border border-border/30 hover:border-secondary/30 transition-all duration-300">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-secondary/10 border border-secondary/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <Trophy className="h-6 w-6 text-secondary" />
-                  </div>
+
                   <div>
                     <h3 className="text-lg font-bold text-foreground mb-2">Casinos Licenciados</h3>
                     <p className="text-muted-foreground leading-relaxed">
@@ -69,9 +62,7 @@ export function TopSitesPortugalSection() {
               {/* Exclusive Bonuses */}
               <div className="group p-6 rounded-2xl bg-gradient-to-br from-muted/30 to-transparent border border-border/30 hover:border-primary/30 transition-all duration-300">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <Sparkles className="h-6 w-6 text-primary" />
-                  </div>
+
                   <div>
                     <h3 className="text-lg font-bold text-foreground mb-2">Bónus Exclusivos</h3>
                     <p className="text-muted-foreground leading-relaxed">
@@ -85,9 +76,7 @@ export function TopSitesPortugalSection() {
               {/* Payment Methods */}
               <div className="group p-6 rounded-2xl bg-gradient-to-br from-muted/30 to-transparent border border-border/30 hover:border-secondary/30 transition-all duration-300">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-secondary/10 border border-secondary/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <TrendingUp className="h-6 w-6 text-secondary" />
-                  </div>
+
                   <div>
                     <h3 className="text-lg font-bold text-foreground mb-2">Métodos de Pagamento</h3>
                     <p className="text-muted-foreground leading-relaxed">

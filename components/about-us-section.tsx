@@ -20,10 +20,6 @@ export function AboutUsSection() {
           <div className="relative z-10 p-8 lg:p-14">
             {/* Header */}
             <div className="text-center mb-12 lg:mb-16">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-muted/50 border border-primary/20 mb-6">
-                <Gem className="w-4 h-4 text-primary" />
-                <span className="text-xs font-medium text-primary tracking-wider uppercase">Quem Somos</span>
-              </div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-4">
                 <span className="text-gold-gradient">Sobre</span> <span className="text-emerald-gradient">Nós</span>
               </h2>
@@ -37,9 +33,6 @@ export function AboutUsSection() {
             <div className="grid md:grid-cols-3 gap-6 lg:gap-8 mb-12">
               {/* Feature 1 */}
               <div className="group p-6 lg:p-8 rounded-2xl bg-gradient-to-br from-muted/30 to-transparent border border-border/30 hover:border-primary/30 transition-all duration-500">
-                <div className="w-14 h-14 mb-6 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                  <Users className="h-7 w-7 text-primary" />
-                </div>
                 <h3 className="text-xl font-bold text-foreground mb-3">Equipa Experiente</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Mais de 10 anos de experiência coletiva na indústria de jogos online e análise de casinos.
@@ -48,9 +41,6 @@ export function AboutUsSection() {
 
               {/* Feature 2 */}
               <div className="group p-6 lg:p-8 rounded-2xl bg-gradient-to-br from-muted/30 to-transparent border border-border/30 hover:border-secondary/30 transition-all duration-500">
-                <div className="w-14 h-14 mb-6 rounded-xl bg-secondary/10 border border-secondary/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                  <Award className="h-7 w-7 text-secondary" />
-                </div>
                 <h3 className="text-xl font-bold text-foreground mb-3">Análises Independentes</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Avaliações 100% imparciais baseadas em testes reais e critérios objetivos de qualidade.
@@ -59,9 +49,7 @@ export function AboutUsSection() {
 
               {/* Feature 3 */}
               <div className="group p-6 lg:p-8 rounded-2xl bg-gradient-to-br from-muted/30 to-transparent border border-border/30 hover:border-primary/30 transition-all duration-500">
-                <div className="w-14 h-14 mb-6 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                  <Shield className="h-7 w-7 text-primary" />
-                </div>
+
                 <h3 className="text-xl font-bold text-foreground mb-3">Compromisso com Segurança</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Priorizamos a sua segurança, recomendando apenas casinos licenciados e regulamentados pelo SRIJ.
